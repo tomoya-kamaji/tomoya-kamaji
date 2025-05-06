@@ -4,6 +4,27 @@
 - 生年月日: 1995/05/21 生まれ (20 代後半)
 - 居住地: 大阪府
 
+## 職務経歴サマリー
+
+### 正社員
+
+| 期間               | 会社名                   | 事業内容                       | 主な技術                                 |
+| ------------------ | ------------------------ | ------------------------------ | ---------------------------------------- |
+| 2024/03 ～ 2024/09 | 株式会社 Contrea         | 医療系 DX サービス             | TypeScript, Express, Vue.js,Google Cloud |
+| 2023/01 ～ 2023/12 | Qufooit Japan 株式会社   | 検索連動型広告サービス         | Go, TypeScript, Google Cloud             |
+| 2021/06 ～ 2022/12 | 株式会社 Another works   | 複業マッチングプラットフォーム | TypeScript, Express, Rails               |
+| 2018/04 ～ 2021/05 | 大手メーカー基幹システム | 基幹システムの上流工程         | Java                                     |
+
+### 業務委託
+
+| 期間               | 会社名                     | 事業内容                           | 主な技術                 |
+| ------------------ | -------------------------- | ---------------------------------- | ------------------------ |
+| 2023/07 ～         | 営業マッチング PF          | 営業マッチングプラットフォーム開発 | TypeScript, Nest.js, AWS |
+| 2022/07 ～ 2022/11 | 法人向けクレジットサービス | BtoB クレジットカード              | Kotlin, Ktor             |
+
+
+[職務経歴の詳細](./docs/detailed-profile.md)
+
 # 得意とする分野・スキル
 
 - サーバサイド領域（TypeScript、Golang、Ruby on Rails）
@@ -38,10 +59,6 @@ Google Cloud
 
 - GitHub Actions,Vercel,CircleCI,Sentry,NewRelic,Terraform,Kibana
 
-## 職務経歴
-
-[詳細はこちら](./docs/detailed-profile.md)
-
 ## その他活動
 
 - 技術書展(2023/11)にて書籍を発売
@@ -50,8 +67,9 @@ Google Cloud
 
 ## ソーシャルメディア
 
-- (Note: Source included a link to a Notion page. Replace this with public social media links if available.)
-- [ソース内のリンク](https://www.notion.so/e961e9b3675647b4a069a792cb150e88?pvs=21)
+- [Twitter](https://twitter.com/tomoya_sakusaku)
+- [Zenn](https://zenn.dev/tomoya_kamaji)
+- [GitHub](https://github.com/tomoya-kamaji)
 
 ## 人柄
 
