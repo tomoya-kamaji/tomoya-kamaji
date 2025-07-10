@@ -10,7 +10,7 @@
 
 | 期間               | 会社名                   | 事業内容                       | 主な技術                                 |
 | ------------------ | ------------------------ | ------------------------------ | ---------------------------------------- |
-| 2024/03 ～ 2024/09 | 株式会社 Contrea         | 医療系 DX サービス             | TypeScript, Express, Vue.js,Google Cloud |
+| 2024/03 ～ 2024/09 | Contrea 株式会社          | 医療系 DX サービス             | TypeScript, Express, Vue.js,Google Cloud |
 | 2023/01 ～ 2023/12 | Qufooit Japan 株式会社   | 検索連動型広告サービス         | Go, TypeScript, Google Cloud             |
 | 2021/06 ～ 2022/12 | 株式会社 Another works   | 複業マッチングプラットフォーム | TypeScript, Express, Rails               |
 | 2018/04 ～ 2021/05 | 大手メーカー基幹システム | 基幹システムの上流工程         | Java                                     |
