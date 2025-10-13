@@ -1,11 +1,15 @@
-remote_theme: pages-themes/minimal
-# remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: pages-themes/midnight
+# remote_theme: pages-themes/minimal
 
 # Site settings
 title: プロフィール
 description: プロフィール
 baseurl: ""
 url: "https://tomoya-kamaji.github.io"
+
+# Theme customization
+show_excerpts: true
+show_sidebar: true
 
 # Build settings
 markdown: kramdown
