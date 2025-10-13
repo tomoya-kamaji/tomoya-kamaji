@@ -1,5 +1,4 @@
-remote_theme: pages-themes/midnight
-# remote_theme: pages-themes/minimal
+theme: jekyll-theme-midnight
 
 # Site settings
 title: プロフィール
