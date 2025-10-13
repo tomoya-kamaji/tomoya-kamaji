@@ -1,0 +1,27 @@
+{
+  "name": "tomoya-kamaji",
+  "version": "1.0.0",
+  "description": "プロフィール",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "textlint . && markdownlint **/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomoya-kamaji/tomoya-kamaji.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomoya-kamaji/tomoya-kamaji/issues"
+  },
+  "homepage": "https://github.com/tomoya-kamaji/tomoya-kamaji#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0",
+    "textlint": "^15.2.3"
+  }
+}
