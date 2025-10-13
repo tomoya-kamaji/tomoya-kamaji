@@ -1,7 +1,25 @@
-theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight
 
 # Site settings
 title: プロフィール
 description: プロフィール
 baseurl: ""
 url: "https://tomoya-kamaji.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
