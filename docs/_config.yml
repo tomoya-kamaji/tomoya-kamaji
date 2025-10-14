@@ -1,10 +1,11 @@
-theme: jekyll-theme-slate
+remote_theme: pages-themes/slate@v0.2.0
 
 # Site settings
 title: プロフィール
 description: プロフィール
 baseurl: "/tomoya-kamaji"
 url: "https://tomoya-kamaji.github.io"
+show_downloads: false
 
 # Build settings
 markdown: kramdown
@@ -12,6 +13,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Exclude from processing
 exclude:
