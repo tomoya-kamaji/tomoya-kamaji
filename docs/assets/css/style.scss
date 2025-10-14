@@ -4,17 +4,31 @@
 @import "{{ site.theme }}";
 
 /* Noto Sans JPフォントを読み込み */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+/* 配色変数 */
+:root {
+  --primary-color: #4a9eff;
+  --primary-hover: #6bb0ff;
+  --bg-dark: #1a1a1a;
+  --bg-card: #2a2a2a;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --border-color: #3a3a3a;
+}
 
 /* フォント設定 */
 body {
-  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.8;
+  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--text-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-weight: 700;
+  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 /* 2カラムレイアウト */
@@ -38,16 +52,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar nav {
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--bg-card);
   padding: 1.5rem;
   border-radius: 8px;
+  border: 1px solid var(--border-color);
 }
 
 .sidebar h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 0;
   margin-bottom: 1rem;
   color: #ffffff;
+  font-weight: 600;
 }
 
 .sidebar ul {
@@ -61,14 +77,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar a {
-  color: #b5e853;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.2s;
+  font-weight: 400;
 }
 
 .sidebar a:hover {
-  color: #ffffff;
+  color: var(--primary-hover);
 }
 
 .sidebar ul ul {
@@ -100,17 +117,26 @@ table {
   width: 100%;
   margin: 1.5rem 0;
   border-collapse: collapse;
+  background: var(--bg-card);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 table th,
 table td {
-  padding: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  text-align: left;
 }
 
 table th {
   background: rgba(0, 0, 0, 0.3);
   font-weight: 500;
+  color: var(--text-primary);
+}
+
+table td {
+  color: var(--text-secondary);
 }
 
 /* コードブロック */
@@ -122,29 +148,42 @@ code {
 .sidebar a.active {
   color: #ffffff;
   font-weight: 500;
-  border-left: 3px solid #b5e853;
+  border-left: 3px solid var(--primary-color);
   padding-left: 8px;
   margin-left: -8px;
+}
+
+/* リンクの色 */
+a {
+  color: var(--primary-color);
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--primary-hover);
 }
 
 /* detailsタグのスタイル（職務経歴用） */
 details.job-history {
   margin: 1rem 0;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
 }
 
 details.job-history summary {
   cursor: pointer;
   padding: 1rem 1.5rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--bg-card);
   border-radius: 8px;
-  transition: background 0.2s;
+  transition: background 0.2s, border-color 0.2s;
   user-select: none;
   list-style: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
 }
 
 details.job-history summary::-webkit-details-marker {
@@ -156,6 +195,7 @@ details.job-history summary::before {
   font-size: 0.8em;
   transition: transform 0.3s;
   display: inline-block;
+  color: var(--primary-color);
 }
 
 details.job-history[open] summary::before {
@@ -163,7 +203,7 @@ details.job-history[open] summary::before {
 }
 
 details.job-history summary:hover {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(74, 158, 255, 0.1);
 }
 
 details.job-history[open] {
@@ -172,4 +212,5 @@ details.job-history[open] {
 
 details.job-history > *:not(summary) {
   padding: 0 1.5rem;
+  color: var(--text-secondary);
 }
