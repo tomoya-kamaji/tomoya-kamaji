@@ -13,9 +13,9 @@
     // h2, h3, h4の見出しを取得
     const allHeadings = mainContent.querySelectorAll('h2, h3, h4');
 
-    // detailsタグ内の見出しを除外
+    // detailsタグ内の見出しと.job-history内の見出しを除外
     const headings = Array.from(allHeadings).filter(heading => {
-      return !heading.closest('details');
+      return !heading.closest('details') && !heading.closest('.job-history');
     });
 
     if (headings.length === 0) {
@@ -102,9 +102,9 @@
 
     const allHeadings = mainContent.querySelectorAll('h2, h3, h4');
 
-    // detailsタグ内の見出しを除外
+    // detailsタグ内の見出しと.job-history内の見出しを除外
     const headings = Array.from(allHeadings).filter(heading => {
-      return !heading.closest('details');
+      return !heading.closest('details') && !heading.closest('.job-history');
     });
 
     const scrollPosition = window.scrollY + 100; // オフセット
