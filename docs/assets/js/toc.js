@@ -11,7 +11,12 @@
     }
 
     // h2, h3, h4の見出しを取得
-    const headings = mainContent.querySelectorAll('h2, h3, h4');
+    const allHeadings = mainContent.querySelectorAll('h2, h3, h4');
+
+    // detailsタグ内の見出しを除外
+    const headings = Array.from(allHeadings).filter(heading => {
+      return !heading.closest('details');
+    });
 
     if (headings.length === 0) {
       return;
@@ -95,7 +100,13 @@
       return;
     }
 
-    const headings = mainContent.querySelectorAll('h2, h3, h4');
+    const allHeadings = mainContent.querySelectorAll('h2, h3, h4');
+
+    // detailsタグ内の見出しを除外
+    const headings = Array.from(allHeadings).filter(heading => {
+      return !heading.closest('details');
+    });
+
     const scrollPosition = window.scrollY + 100; // オフセット
 
     let currentHeading = null;
