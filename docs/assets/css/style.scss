@@ -126,3 +126,48 @@ code {
   padding-left: 8px;
   margin-left: -8px;
 }
+
+/* アコーディオン（職務経歴用） */
+.job-header {
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin: 1rem 0;
+  transition: background 0.2s, transform 0.1s;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.job-header:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.job-header:active {
+  transform: scale(0.99);
+}
+
+.job-header .arrow {
+  font-size: 0.8em;
+  transition: transform 0.3s;
+  display: inline-block;
+}
+
+.job-header.open .arrow {
+  transform: rotate(90deg);
+}
+
+.job-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+
+.job-content.open {
+  max-height: 5000px;
+  opacity: 1;
+  transition: max-height 0.5s ease-in, opacity 0.3s ease-in;
+}
