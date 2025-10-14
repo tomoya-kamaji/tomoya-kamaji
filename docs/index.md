@@ -31,9 +31,7 @@ Web エンジニアとして 7 年の経験を持ち、サーバサイドを中�
 ### 正社員
 
 <details class="job-history" open markdown="1">
-<summary>2024年3月～現在 医療系 DX サービス</summary>
-
-てっく
+<summary>2024年3月～現在</summary>
 
 ### 雇用形態
 
@@ -56,14 +54,6 @@ Web エンジニアとして 7 年の経験を持ち、サーバサイドを中�
 
 ### 主な実績
 
-- **広告配信サーバーのモジュールオーナーとして従事**
-  - 秒間 6,000 リクエスト発生する広告配信システムの運用・改善
-  - サーバー負荷を削減するためのパフォーマンス・チューニング実施
-- **A/B テストの施策立案・実装・データ分析**
-  - BigQuery を活用した効果測定とレポート作成
-- **形態素解析器 Sudachi を使用できる gRPC サーバーの構築**
-  - 検索エンジンの精度向上に貢献
-
 ### 使用技術
 
 Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, ElasticSearch, Redis, NewRelic, Spark, Notion
@@ -71,7 +61,7 @@ Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, 
 </details>
 
 <details class="job-history" open markdown="1">
-<summary>2023年1月～12月 Qufooit Japan株式会社</summary>
+<summary>2023年1月～12月 検索連動型広告サービス</summary>
 
 ### 雇用形態
 
@@ -79,7 +69,7 @@ Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, 
 
 ### 事業内容
 
-検索連動型広告サービスの開発・運用（ISE）
+検索連動型広告サービスの開発・運用
 
 ### チーム構成
 
@@ -109,7 +99,7 @@ Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, 
 </details>
 
 <details class="job-history" markdown="1">
-<summary>2021年6月～2022年12月 株式会社Another works</summary>
+<summary>2021年6月～2022年12月 複業マッチングプラットフォーム</summary>
 
 ### 雇用形態
 
@@ -156,31 +146,42 @@ TypeScript, Node.js, Express, TypeORM, Ruby on Rails, Next.js, React, ElasticSea
 <details class="job-history" markdown="1">
 <summary>2018年4月～2021年5月 大手 SIer（新卒入社）</summary>
 
-### 雇用形態
+### 概要
+
+大手メーカー向け基幹システムの開発に従事。3 年間で 20 以上の案件に参画し、要件定義からテストまでの工程を担当。業務効率化ツールの開発や Notion の導入など、チーム全体の生産性向上にも貢献。
+
+## 雇用形態
 
 正社員（システムエンジニア）
 
-### 事業内容
+## 事業内容
 
 大手メーカー向け基幹システムの開発
 
-### 役割
+## 役割
 
 システムエンジニア（要件定義、設計、テスト、リリース）
 
-### 主な実績
+## 主な実績
 
-- **3 年間で 20 以上の案件に参画**し、全て大きな遅延なく納品
-- 要件定義、基本設計を開発チームへ共有
-- 実装されたモジュールに対して様々な観点からテストケースを作成・検証
-- **ログファイル整形ツールの作成・展開**
-  - 業務効率化ツールを開発し、チーム全体で活用
-- **7 人規模のチームに Notion を導入**
-  - ドキュメント管理の効率化とナレッジ共有を推進
+### 3 年間で 20 以上の案件に参画し、全て大きな遅延なく納品
+
+メーカー系の基幹システムのプロジェクトメンバーとして複数の案件に参画。要件定義、基本設計を開発チームへ共有し、その後、実装されたモジュールに対して様々な観点からテストケースを作成して問題が無いかを検証しました。
 
 ### 使用技術
 
 Oracle, Java（基幹システム開発）
+
+### 実績
+
+[ログファイル整形ツールの作成・展開](jobs/2018-sier.md#ログファイル整形ツールの作成・展開)
+
+## この経験から得たもの
+
+- 大規模プロジェクトにおける要件定義～テストまでの一連の流れの理解
+- 様々な観点からテストケースを設計する力
+- チーム全体の生産性を向上させる業務改善の重要性
+- ドキュメント管理とナレッジ共有の仕組み作り
 
 </details>
 
