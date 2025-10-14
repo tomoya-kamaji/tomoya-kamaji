@@ -1,9 +1,9 @@
-remote_theme: pages-themes/midnight@v0.2.0
+theme: jekyll-theme-slate
 
 # Site settings
 title: プロフィール
 description: プロフィール
-baseurl: ""
+baseurl: "/tomoya-kamaji"
 url: "https://tomoya-kamaji.github.io"
 
 # Build settings
@@ -12,7 +12,6 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 # Exclude from processing
 exclude:
