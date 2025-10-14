@@ -127,47 +127,49 @@ code {
   margin-left: -8px;
 }
 
-/* アコーディオン（職務経歴用） */
-.job-header {
+/* detailsタグのスタイル（職務経歴用） */
+details {
+  margin: 1rem 0;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+details summary {
   cursor: pointer;
   padding: 1rem 1.5rem;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  margin: 1rem 0;
-  transition: background 0.2s, transform 0.1s;
+  transition: background 0.2s;
   user-select: none;
+  list-style: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.job-header:hover {
-  background: rgba(0, 0, 0, 0.4);
+details summary::-webkit-details-marker {
+  display: none;
 }
 
-.job-header:active {
-  transform: scale(0.99);
-}
-
-.job-header .arrow {
+details summary::before {
+  content: '▶';
   font-size: 0.8em;
   transition: transform 0.3s;
   display: inline-block;
 }
 
-.job-header.open .arrow {
+details[open] summary::before {
   transform: rotate(90deg);
 }
 
-.job-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
-  opacity: 0;
+details summary:hover {
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.job-content.open {
-  max-height: 5000px;
-  opacity: 1;
-  transition: max-height 0.5s ease-in, opacity 0.3s ease-in;
+details[open] {
+  padding-bottom: 1rem;
+}
+
+details > *:not(summary) {
+  padding: 0 1.5rem;
 }
