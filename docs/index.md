@@ -5,213 +5,299 @@ title: プロフィール
 
 ## 基本情報
 
-| 項目     | 内容       |
-| -------- | ---------- |
-| 名前     | 釜地智也   |
-| 生年月日 | 1995/05/21 |
-| 居住地   | 大阪府     |
+| 項目     | 内容                                              |
+| -------- | ------------------------------------------------- |
+| 名前     | 釜地智也（Kamaji Tomoya）                         |
+| 生年月日 | 1995/05/21                                        |
+| 居住地   | 大阪府                                            |
+| 最終学歴 | 2018 年卒 京都産業大学 情報理工学部               |
+| GitHub   | [tomoya-kamaji](https://github.com/tomoya-kamaji) |
 
 ## 要約
 
-Web エンジニアとして 5 年以上の経験を持ち、フロントエンドからバックエンド、インフラまで幅広く担当してきました。特に、React/TypeScript を用いた SPA 開発や、AWS を活用したクラウドインフラの構築・運用に強みがあります。テスト駆動開発やアジャイル開発の実践を通じて、品質と開発速度の両立を重視しています。
+Web エンジニアとして 7 年の経験を持ち、サーバサイドを中心にフロントエンド、インフラまで幅広く担当してきました。特に、TypeScript/Golang を用いたバックエンド開発、アーキテクチャ設計に強みがある。
+秒間 6,000 リクエスト発生する広告配信サービスの運用経験があり、高負荷環境でのパフォーマンス・チューニングやシステム設計を得意としている。
+
+## 得意とする分野・スキル
+
+- サーバサイド領域（TypeScript、Golang、Ruby on Rails）
+- 要件、デザインからシステムを設計し、適切な粒度のタスクに分解する
+- 保守性が高いコードを書く技術（クラスごとの責務を考えて設計を行える）
+- 秒間 6,000 リクエスト発生する広告配信サービスの運用経験があり、サーバー負荷を減らすためのノウハウを持っている
+- 簡易的なものであればインフラの構築も行える（AWS CDK での構築経験あり）
 
 ## 経歴
 
-<!-- 2022年4月～現在（2年7ヶ月） 企業 A -->
+### 正社員
 
 <details class="job-history" open markdown="1">
-<summary>2022年4月～現在（2年7ヶ月） 企業 A</summary>
+<summary>2024年3月～現在 医療系 DX サービス</summary>
 
-**雇用形態**
-
-正社員
-
-### 職種
-
-テックリード
-
-### チーム構成
-
-エンジニア 8 名、デザイナー 2 名、PdM 1 名
-
-### 担当工程
-
-要件定義、設計、実装、テスト、運用保守
-
-### 役割
-
-フロントエンド・バックエンド開発、E2E テスト基盤構築
-
-### 実績
-
-- React + TypeScript で新機能を月平均 5 本リリース
-- E2E テストカバレッジを 0% → 70% に向上させ、バグ検出率 40% 改善
-- パフォーマンス改善により初期表示速度を 3.2 秒 → 1.1 秒に短縮
-
-### 使用技術
-
-React, TypeScript, Next.js, Node.js, Express, PostgreSQL, AWS (EC2, RDS, S3, CloudFront), Docker, GitHub Actions, Playwright
-
-</details>
-
-<!-- 2020年4月～2022年3月（2年） 企業 B -->
-
-<details class="job-history" markdown="1">
-<summary>2020年4月～2022年3月（2年） 企業 B</summary>
+てっく
 
 ### 雇用形態
 
 正社員
 
-### 職種
+### 事業内容
 
-Web エンジニア
+医療系 DX サービスの開発・運用
 
 ### チーム構成
 
-エンジニア 5 名
+- EM：1 名
+- PDM 兼 エンジニア：1 名
+- ソフトウェアエンジニア：3 名
+- デザイナー：1 名
 
-### 実績
+### 役割
 
-フロントエンド・バックエンド開発
+テックリード兼 エンジニア
 
-### 実績
+### 主な実績
 
-10 社以上のクライアント向け Web アプリケーション開発
-コードレビュー文化の導入により、バグ件数を月平均 15 件 → 5 件に削減
-Git フロー整備とドキュメント化により、新規メンバーのオンボーディング期間を 2 週間短縮
-
-### 開発体制の改善
-
-開発プロセスが属人化していた状況を改善。Git ブランチ戦略の策定、PR テンプレートの作成、コードレビューガイドラインの整備を実施し、チーム全体の開発効率を向上させました。
+- **広告配信サーバーのモジュールオーナーとして従事**
+  - 秒間 6,000 リクエスト発生する広告配信システムの運用・改善
+  - サーバー負荷を削減するためのパフォーマンス・チューニング実施
+- **A/B テストの施策立案・実装・データ分析**
+  - BigQuery を活用した効果測定とレポート作成
+- **形態素解析器 Sudachi を使用できる gRPC サーバーの構築**
+  - 検索エンジンの精度向上に貢献
 
 ### 使用技術
 
-Vue.js, JavaScript, PHP, Laravel, MySQL, AWS (EC2, RDS), GitLab CI/CD
+Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, ElasticSearch, Redis, NewRelic, Spark, Notion
 
 </details>
 
-<!-- 2018年4月～2020年3月（2年） 企業 C -->
-
-<details class="job-history" markdown="1">
-<summary>2018年4月～2020年3月（2年） 企業 C</summary>
+<details class="job-history" open markdown="1">
+<summary>2023年1月～12月 Qufooit Japan株式会社</summary>
 
 ### 雇用形態
 
 正社員
 
-### 職種
+### 事業内容
 
-Web エンジニア（新卒）
+検索連動型広告サービスの開発・運用（ISE）
 
 ### チーム構成
 
-エンジニア 3 名
-
-### 担当工程
-
-実装、テスト、運用保守
+- CTO：1 名
+- SWE（ソフトウェアエンジニア）：5 名
+- DS（データサイエンスエンジニア）：5 名
+- 基盤チーム（SRE）：2 名
 
 ### 役割
 
-オンライン診療プラットフォームの機能追加・保守
+広告配信サーバーのモジュールオーナー
 
-### 実績
+### 主な実績
 
-- ビデオ通話機能の安定性向上（切断率 8% → 2%）
-- メンテナンスモード機能の実装により、計画メンテナンス時のユーザー体験を改善
-- 管理画面の UI 改善により、カスタマーサポートの業務効率 30% 向上
+- **広告配信サーバーのモジュールオーナーとして従事**
+  - 秒間 6,000 リクエスト発生する広告配信システムの運用・改善
+  - サーバー負荷を削減するためのパフォーマンス・チューニング実施
+- **A/B テストの施策立案・実装・データ分析**
+  - BigQuery を活用した効果測定とレポート作成
+- **形態素解析器 Sudachi を使用できる gRPC サーバーの構築**
+  - 検索エンジンの精度向上に貢献
 
 ### 使用技術
 
-JavaScript, jQuery, Ruby on Rails, PostgreSQL, WebRTC, Heroku
+Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, ElasticSearch, Redis, NewRelic, Spark, Notion
 
 </details>
 
-<!-- スキル -->
+<details class="job-history" markdown="1">
+<summary>2021年6月～2022年12月 株式会社Another works</summary>
 
-## スキル
+### 雇用形態
 
-### 開発手法
+正社員
 
-アジャイル開発、スクラム、テスト駆動開発（TDD）、ペアプログラミング
+### 事業内容
 
-### テストツール
+複業マッチングプラットフォームの開発・運用
 
-Jest, React Testing Library, Playwright, Cypress, RSpec
+### チーム構成
 
-### 言語
+- CTO：1 名、CDO：1 名、PdM：1 名
+- フロントエンド：2 名
+- サーバサイド：1 名（私）
+- デザイナー：1 名
 
-TypeScript, JavaScript, Ruby, PHP, Python, SQL
+### 役割
 
-### フレームワーク・ライブラリ
+専任サーバサイドエンジニア
 
-React, Next.js, Vue.js, Express, Ruby on Rails, Laravel
+### 主な実績
 
-### 通信プロトコル
+- **Rails から Node.js (TypeScript) への DDD 設計でのリプレイス**
+  - ドメインモデル図の作成、アーキテクチャ設計
+  - テーブル設計、API 設計、実装
+- **ユーザ検索機能の全文検索エンジン（ElasticSearch）実装**
+  - パフォーマンス・チューニングにより検索速度を大幅改善
+- **企業の登録処理のフルリプレイス**
+  - 複雑なビジネスロジックを DDD で整理し保守性を向上
+- **テスト基盤の構築**
+  - ユースケース層とインフラ層のテスト分割
+  - Jest によるテスト実装でカバレッジ向上
+- **OpenAPI (StopLight) の導入・運用**
+  - フロントエンドとの連携をスムーズにする API ドキュメント整備
+- **Sentry 導入による障害対応の効率化**
+- **BigQuery を用いた施策検証用データ分析**
 
-HTTP/HTTPS, WebSocket, REST API, GraphQL
+### 使用技術
 
-### RDB
+TypeScript, Node.js, Express, TypeORM, Ruby on Rails, Next.js, React, ElasticSearch, Redis, PostgreSQL, Sentry, Firebase, BigQuery, Payjp, Figma, Notion
 
-PostgreSQL, MySQL
+</details>
+
+<details class="job-history" markdown="1">
+<summary>2018年4月～2021年5月 大手 SIer（新卒入社）</summary>
+
+### 雇用形態
+
+正社員（システムエンジニア）
+
+### 事業内容
+
+大手メーカー向け基幹システムの開発
+
+### 役割
+
+システムエンジニア（要件定義、設計、テスト、リリース）
+
+### 主な実績
+
+- **3 年間で 20 以上の案件に参画**し、全て大きな遅延なく納品
+- 要件定義、基本設計を開発チームへ共有
+- 実装されたモジュールに対して様々な観点からテストケースを作成・検証
+- **ログファイル整形ツールの作成・展開**
+  - 業務効率化ツールを開発し、チーム全体で活用
+- **7 人規模のチームに Notion を導入**
+  - ドキュメント管理の効率化とナレッジ共有を推進
+
+### 使用技術
+
+Oracle, Java（基幹システム開発）
+
+</details>
+
+### 複業・業務委託
+
+<details class="job-history" markdown="1">
+<summary>2023年1月～現在 営業マッチングプラットフォームの開発</summary>
+
+### 雇用形態
+
+業務委託
+
+### 事業内容
+
+営業マッチングプラットフォームの開発
+
+### チーム構成
+
+- プロダクトオーナー（社長）：1 名
+- SWE：2 名
+- デザイナー：1 名
+
+### 役割
+
+サーバサイド開発、インフラ構築
+
+### 主な担当業務
+
+- **AWS CDK によるインフラリソースの構築**
+- アーキテクチャ設計
+- Nest.js でのサーバサイド開発
+- テスト環境の整備
+- CI/CD の構築
+
+### 使用技術
+
+TypeScript, Nest.js, Prisma, Next.js, React, StyledComponent, AWS, AWS CDK, Vercel, PlanetScale
+
+</details>
+
+<details class="job-history" markdown="1">
+<summary>2022年1月～6月 新卒向け適性検査サービス</summary>
+
+### 雇用形態
+
+業務委託（月稼働 40〜50 時間）
+
+### 事業内容
+
+相性がわかる適性検査サービス
+
+### 主な担当業務
+
+- Nest.js による API 作成、設計からテストまで担当
+- ベトナム人メンバーがいたためドキュメントは英語で作成
+- 仕様について齟齬が発生しないようにドキュメントに残す
+- テストを手厚く書くことでリリースのリードタイムを短縮
+
+### 使用技術
+
+TypeScript, Nest.js
+
+</details>
+
+## 実務経験がある技術
+
+### 言語・フレームワーク
+
+**TypeScript**
+Express, Nest.js, React, Next.js
+
+**Golang**
+gin, Echo, gorm, sqlc, sqldef
+
+**Ruby**
+Ruby on Rails
+
+**その他**
+JavaScript, Vue.js, Python
+
+### データベース・ストレージ
+
+**RDB**
+MySQL, Oracle, PostgreSQL
+
+**NoSQL**
+Redis, ElasticSearch
+
+**その他**
+BigQuery
 
 ### クラウド
 
-#### AWS
+**AWS**
+EC2, Lambda, ELB, ECS, Fargate, Route53, SQS, SNS, SES, ElasticCache (Redis), KMS, CDK
 
-EC2, RDS, S3, CloudFront, Lambda, API Gateway, CloudWatch, Route53
-
-#### Google Cloud
-
-Cloud Run, Cloud Storage, BigQuery
-
-### CI・CD
-
-GitHub Actions, GitLab CI/CD, CircleCI
+**GCP**
+GCS, Cloud Functions, GCE, GKE (Kubernetes), Cloud Run, Cloud SQL, Cloud Memorystore (Redis), Cloud Pub/Sub, BigQuery, Composer (Airflow), Cloud Build, Stackdriver Logging
 
 ### SaaS・PaaS
 
-Vercel, Heroku, Supabase, Sentry, Datadog
+GitHub, GitHub Actions, Vercel, CircleCI, Sentry, NewRelic, PlanetScale, Figma, Notion
 
-### その他のツール・ライブラリ
+### その他ツール・技術
 
-Docker, Git, Figma, Slack, Notion, Linear
+Terraform, Docker, Kubernetes, Kibana, Spark
 
-## 自己 PR
+## 業務外活動
 
-**問題解決力と改善意識**
-既存の問題を見つけ、データに基づいて改善提案・実行することを得意としています。E2E テスト基盤の構築や開発体制の改善など、チーム全体の生産性向上に貢献してきました。
+### 技術書執筆
 
-**幅広い技術スタック**
-フロントエンドからバックエンド、インフラまで一貫して担当できるため、システム全体を俯瞰した設計・実装が可能です。
+**技術書展 15（2023 年 11 月）にて書籍を発売**
 
-**コミュニケーション能力**
-技術的な内容を非エンジニアにもわかりやすく説明することができ、PdM やデザイナーとの協業をスムーズに進められます。
+- 約 700 冊を販売
+- [Twitter (X) での告知](https://x.com/tomoya_sakusaku/status/1723167574983356558?s=20)
 
-## アウトプット
+## 人柄
 
-- **個人ブログ**: 技術記事を月 2 本程度投稿（総 PV 数 50,000）
-- **OSS 貢献**: Next.js, React Testing Library などに Pull Request を送付
-- **登壇経験**: 社内勉強会で「E2E テスト導入のベストプラクティス」を発表
-
-## 意欲・興味
-
-- モダンなフロントエンド技術（React Server Components, Astro など）のキャッチアップ
-- パフォーマンス最適化とユーザー体験の向上
-- チーム開発の生産性向上と開発者体験（DX）の改善
-- 技術的な意思決定やアーキテクチャ設計への関与
-
-## 今後習得したいスキル
-
-- Rust や Go などのシステムプログラミング言語
-- Kubernetes を用いたコンテナオーケストレーション
-- 機械学習・AI 関連技術の基礎理解
-- プロダクトマネジメントの知識
-
-## バリューを発揮しやすい環境
-
-- 技術的な改善提案が歓迎される文化
-- モダンな技術スタックを積極的に導入している環境
-- コードレビューや技術的な議論が活発なチーム
-- ユーザーファーストの価値観を持つ組織
+- 好奇心旺盛
+- 素直
