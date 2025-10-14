@@ -11,13 +11,13 @@ title: プロフィール
 | 生年月日 | 1995/05/21 |
 | 居住地   | 大阪府     |
 
-# 職務要約
+# 要約
 
 Web エンジニアとして 5 年以上の経験を持ち、フロントエンドからバックエンド、インフラまで幅広く担当してきました。特に、React/TypeScript を用いた SPA 開発や、AWS を活用したクラウドインフラの構築・運用に強みがあります。テスト駆動開発やアジャイル開発の実践を通じて、品質と開発速度の両立を重視しています。
 
-# 職務経歴
+# 経歴
 
-<details open markdown="1">
+<details class="job-history" open markdown="1">
 <summary>2022年4月～現在（2年7ヶ月） 企業 A</summary>
 
 **雇用形態**
@@ -46,7 +46,7 @@ React, TypeScript, Next.js, Node.js, Express, PostgreSQL, AWS (EC2, RDS, S3, Clo
 
 </details>
 
-<details markdown="1">
+<details class="job-history" markdown="1">
 <summary>2020年4月～2022年3月（2年） 企業 B</summary>
 
 **雇用形態**
@@ -79,7 +79,7 @@ Vue.js, JavaScript, PHP, Laravel, MySQL, AWS (EC2, RDS), GitLab CI/CD
 
 </details>
 
-<details markdown="1">
+<details class="job-history" markdown="1">
 <summary>2018年4月～2020年3月（2年） 企業 C</summary>
 
 **雇用形態**

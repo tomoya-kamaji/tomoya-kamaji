@@ -128,13 +128,13 @@ code {
 }
 
 /* detailsタグのスタイル（職務経歴用） */
-details {
+details.job-history {
   margin: 1rem 0;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.2);
 }
 
-details summary {
+details.job-history summary {
   cursor: pointer;
   padding: 1rem 1.5rem;
   background: rgba(0, 0, 0, 0.3);
@@ -147,29 +147,29 @@ details summary {
   gap: 0.5rem;
 }
 
-details summary::-webkit-details-marker {
+details.job-history summary::-webkit-details-marker {
   display: none;
 }
 
-details summary::before {
+details.job-history summary::before {
   content: '▶';
   font-size: 0.8em;
   transition: transform 0.3s;
   display: inline-block;
 }
 
-details[open] summary::before {
+details.job-history[open] summary::before {
   transform: rotate(90deg);
 }
 
-details summary:hover {
+details.job-history summary:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
-details[open] {
+details.job-history[open] {
   padding-bottom: 1rem;
 }
 
-details > *:not(summary) {
+details.job-history > *:not(summary) {
   padding: 0 1.5rem;
 }
