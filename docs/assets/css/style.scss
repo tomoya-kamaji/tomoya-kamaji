@@ -117,3 +117,12 @@ table th {
 code {
   font-family: 'Consolas', 'Monaco', monospace;
 }
+
+/* 目次のアクティブ状態 */
+.sidebar a.active {
+  color: #ffffff;
+  font-weight: 500;
+  border-left: 3px solid #b5e853;
+  padding-left: 8px;
+  margin-left: -8px;
+}
