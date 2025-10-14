@@ -17,7 +17,7 @@ Web エンジニアとして 5 年以上の経験を持ち、フロントエン�
 
 # 職務経歴
 
-<details open>
+<details open markdown="1">
 <summary>2022年4月～現在（2年7ヶ月） 企業 A</summary>
 
 **雇用形態**
@@ -46,7 +46,7 @@ React, TypeScript, Next.js, Node.js, Express, PostgreSQL, AWS (EC2, RDS, S3, Clo
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>2020年4月～2022年3月（2年） 企業 B</summary>
 
 **雇用形態**
@@ -79,7 +79,7 @@ Vue.js, JavaScript, PHP, Laravel, MySQL, AWS (EC2, RDS), GitLab CI/CD
 
 </details>
 
-<details>
+<details markdown="1">
 <summary>2018年4月～2020年3月（2年） 企業 C</summary>
 
 **雇用形態**
