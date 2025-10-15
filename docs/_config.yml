@@ -2,7 +2,6 @@ remote_theme: pages-themes/midnight@v0.2.0
 
 # Site settings
 title: プロフィール
-description: プロフィール
 baseurl: "/tomoya-kamaji"
 url: "https://tomoya-kamaji.github.io"
 show_downloads: false
