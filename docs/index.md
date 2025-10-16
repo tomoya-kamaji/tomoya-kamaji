@@ -17,19 +17,14 @@ title: プロフィール
 
 ## 要約
 
-Web エンジニアとして 7 年の経験を持ち、サーバサイドを中心にフロントエンド、インフラまで幅広く担当してきました。
-
-特に、TypeScript/Golang を用いたバックエンド開発、アーキテクチャ設計に強みがある。
-
-秒間 6,000 リクエスト発生する広告配信サービスの運用経験があり、高負荷環境でのパフォーマンス・チューニングやシステム設計を得意としている。
+Web エンジニアとして 7 年の経験を持っており、サーバサイドを中心にフロントエンド、インフラまで幅広く担当してきました
 
 ## 得意とする分野・スキル
 
 サーバサイド領域（TypeScript、Golang、Ruby on Rails）を中心に、要件・デザインからシステムを設計し、適切な粒度のタスクに分解することができます。
-
-保守性が高いコードを書く技術（クラスごとの責務を考えて設計を行える）を持っており、秒間 6,000 リクエスト発生する広告配信サービスの運用経験があるため、サーバー負荷を減らすためのノウハウを持っています。
-
-また、簡易的なものであればインフラの構築も行えます（AWS CDK での構築経験あり）。
+特に、TypeScript/Golang を用いたバックエンド開発、アーキテクチャ設計を考え一定の規律を定めてチームに定着させることができます。
+秒間 6,000 リクエスト発生する広告配信サービスの運用経験があるため、サーバー負荷を減らすためのノウハウも一定持っています
+得意とまでは言えないですが、シンプルなアプリケーションであれば IaC を用いてインフラを構築することもできます。
 
 ## 経歴
 
@@ -40,7 +35,9 @@ Web エンジニアとして 7 年の経験を持ち、サーバサイドを中�
 
 ### サマリー
 
-医療 SaaS の開発・運用に従事。大規模機能の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの可視化を推進。複雑な要件をシンプルに設計へ落とし込み、チームの当たり前品質を底上げするテックリード。[[1]](https://www.notion.so/22dc73424b1a4879a5620a1cb66c3870?pvs=21)[[2]](https://docs.google.com/spreadsheets/d/1UEJMjHXHkMC5osmILUGZX12gM6juYiBEgRPFJmw7oCo#gid=0)
+医療 SaaS の開発・運用に従事。大規模機能の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの可視化を推進。
+複雑な要件をシンプルに設計へ落とし込み、チームの当たり前品質を底上げするテックリードとして従事してきました。
+オブザーバビリティ強化（ログ・トレーシング・監視・アラート）を推進し、インシデント検知や原因特定の即時性を向上。品質 KPI の可視化を進め。
 
 **雇用形態**
 
@@ -52,19 +49,10 @@ Web エンジニアとして 7 年の経験を持ち、サーバサイドを中�
 
 **チーム構成**
 
-Pd（プロダクト）、エンジニア、デザイン、CS と連携するクロスファンクショナル体制。設計レビューやリリース手順整備、品質基準の定着を横断支援。[[3]](https://www.notion.so/DS-1cb6851f4ae280f9bfc7d09336e36a3a?pvs=21)[[2]](https://docs.google.com/spreadsheets/d/1UEJMjHXHkMC5osmILUGZX12gM6juYiBEgRPFJmw7oCo#gid=0)
-
-**役割**
-
-テックリード兼エンジニア
-
-設計・コードレビュー、アーキテクチャ整理
-
-監視やアラートを含むオブザーバビリティ強化
-
-セキュリティ確認や依存更新運用の整備
-
-リリース計画の立て直し支援と運用手順の明確化
+PdM 1 名
+テックリード 1 名
+エンジニア 3 名
+デザイナー 1 名
 
 ### 主な実績
 
@@ -80,7 +68,17 @@ LINE 連携を含むユーザー中心のアカウント設計を推進。多役
 
 ### 使用技術
 
-Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, ElasticSearch, Redis, NewRelic, Spark, Notion
+フロントエンド：TypeScript, Nuxt.js,
+
+バックエンド：TypeScript, Express
+
+インフラ：Google Cloud Platform(Cloud Run, Cloud SQL, Cloud Storage、Cloud Functions)
+
+データベース：MySQL(Cloud SQL)
+
+モニタリング：Cloud Logging、Sentry、Slack
+
+ドキュメント：Notion
 
 </details>
 
@@ -105,7 +103,7 @@ SWE（ソフトウェアエンジニア）5 名、DS（データサイエンス�
 
 広告配信サーバーのモジュールオーナー
 
-### 主な実績
+### サマリー
 
 広告配信サーバーのモジュールオーナーとして、秒間 6,000 リクエスト発生する広告配信システムの運用・改善を担当。サーバー負荷を削減するためのパフォーマンス・チューニングを実施しました。
 
@@ -113,7 +111,12 @@ SWE（ソフトウェアエンジニア）5 名、DS（データサイエンス�
 
 ### 使用技術
 
-Golang, Python, TypeScript, Vue.js, GCP (GKE, BigQuery), Kubernetes, Terraform, ElasticSearch, Redis, NewRelic, Spark, Notion
+フロントエンド： TypeScript, Vue.js,JavaScript
+バックエンド： Golang, Python
+インフラ： Google Cloud Platform(Kubernetes(GKE), BigQuery, Cloud Functions,Cloud Storage,Cloud SQL)
+データベース： MySQL , Redis
+モニタリング： NewRelic, Cloud Logging, Slack
+ドキュメント： Notion
 
 </details>
 
