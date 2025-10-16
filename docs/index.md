@@ -22,8 +22,11 @@ Web エンジニアとして 7 年の経験を持っており、サーバサイ�
 ## 得意とする分野・スキル
 
 サーバサイド領域（TypeScript、Golang、Ruby on Rails）を中心に、要件・デザインからシステムを設計し、適切な粒度のタスクに分解することができます。
+
 特に、TypeScript/Golang を用いたバックエンド開発、アーキテクチャ設計を考え一定の規律を定めてチームに定着させることができます。
+
 秒間 6,000 リクエスト発生する広告配信サービスの運用経験があるため、サーバー負荷を減らすためのノウハウも一定持っています
+
 得意とまでは言えないですが、シンプルなアプリケーションであれば IaC を用いてインフラを構築することもできます。
 
 ## 経歴
@@ -36,22 +39,27 @@ Web エンジニアとして 7 年の経験を持っており、サーバサイ�
 ### サマリー
 
 医療 SaaS の開発・運用に従事。大規模機能の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの可視化を推進。
+
 複雑な要件をシンプルに設計へ落とし込み、チームの当たり前品質を底上げするテックリードとして従事してきました。
+
 オブザーバビリティ強化（ログ・トレーシング・監視・アラート）を推進し、インシデント検知や原因特定の即時性を向上。品質 KPI の可視化を進め。
 
-**雇用形態**
+### 雇用形態
 
 正社員
 
-**事業内容**
+### 事業内容
 
 医療系 DX サービスの開発・運用
 
-**チーム構成**
+### チーム構成
 
 PdM 1 名
+
 テックリード 1 名
+
 エンジニア 3 名
+
 デザイナー 1 名
 
 ### 主な実績
@@ -96,7 +104,11 @@ LINE 連携を含むユーザー中心のアカウント設計を推進。多役
 ### チーム構成
 
 CTO 1 名
-SWE（ソフトウェアエンジニア）5 名、DS（データサイエンスエンジニア）5 名
+
+SWE（ソフトウェアエンジニア）5 名
+
+DS（データサイエンスエンジニア）5 名
+
 基盤チーム（SRE）2 名
 
 ### 役割
@@ -112,10 +124,15 @@ SWE（ソフトウェアエンジニア）5 名、DS（データサイエンス�
 ### 使用技術
 
 フロントエンド： TypeScript, Vue.js,JavaScript
+
 バックエンド： Golang, Python
+
 インフラ： Google Cloud Platform(Kubernetes(GKE), BigQuery, Cloud Functions,Cloud Storage,Cloud SQL)
+
 データベース： MySQL , Redis
+
 モニタリング： NewRelic, Cloud Logging, Slack
+
 ドキュメント： Notion
 
 </details>
@@ -133,8 +150,17 @@ SWE（ソフトウェアエンジニア）5 名、DS（データサイエンス�
 
 ### チーム構成
 
-CTO 1 名、CDO 1 名、PdM 1 名
-フロントエンド 2 名、サーバサイド 1 名（私）、デザイナー 1 名
+CTO 1 名
+
+CDO 1 名
+
+PdM 1 名
+
+フロントエンド 2 名
+
+サーバサイド 1 名
+
+デザイナー 1 名
 
 ### 役割
 
@@ -222,49 +248,6 @@ Nest.js による API 作成、設計からテストまでを担当。ベトナ�
 TypeScript, Nest.js
 
 </details>
-
-## 実務経験がある技術
-
-### 言語・フレームワーク
-
-**TypeScript**
-Express, Nest.js, React, Next.js
-
-**Golang**
-gin, Echo, gorm, sqlc, sqldef
-
-**Ruby**
-Ruby on Rails
-
-**その他**
-JavaScript, Vue.js, Python
-
-### データベース・ストレージ
-
-**RDB**
-MySQL, Oracle, PostgreSQL
-
-**NoSQL**
-Redis, ElasticSearch
-
-**その他**
-BigQuery
-
-### クラウド
-
-**AWS**
-EC2, Lambda, ELB, ECS, Fargate, Route53, SQS, SNS, SES, ElasticCache (Redis), KMS, CDK
-
-**GCP**
-GCS, Cloud Functions, GCE, GKE (Kubernetes), Cloud Run, Cloud SQL, Cloud Memorystore (Redis), Cloud Pub/Sub, BigQuery, Composer (Airflow), Cloud Build, Stackdriver Logging
-
-### SaaS・PaaS
-
-GitHub, GitHub Actions, Vercel, CircleCI, Sentry, NewRelic, PlanetScale, Figma, Notion
-
-### その他ツール・技術
-
-Terraform, Docker, Kubernetes, Kibana, Spark
 
 ## 業務外活動
 
