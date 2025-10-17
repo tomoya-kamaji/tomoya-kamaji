@@ -254,14 +254,8 @@ TypeScript, Nest.js
 
 [Twitter (X) での告知](https://x.com/tomoya_sakusaku/status/1723167574983356558?s=20)
 
-## 今後やりたいこと
-
-施策の立案からリリース、改善
-
-チームの生産性向上
-
 ## 人柄
 
-好奇心旺盛
+- 好奇心旺盛
 
-素直
+- 素直
