@@ -14,10 +14,6 @@ title: プロフィール
 | 最終学歴 | 2018 年卒 京都産業大学 情報理工学部 |
 | GitHub | [tomoya-kamaji](https://github.com/tomoya-kamaji) |
 
-## 要約
-
-サーバサイドを中心にフロントエンド、インフラまで幅広く担当してきました。
-
 ## 得意とする分野・スキル
 
 サーバサイド領域（TypeScript、Golang、Ruby on Rails）を中心に、要件・デザインからシステムを設計し、適切な粒度のタスクに分解することができます。
