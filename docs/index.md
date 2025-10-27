@@ -33,10 +33,9 @@ title: プロフィール
 
 ### サマリー
 
-医療 SaaS の開発・運用に従事。機能開発の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの最適化を推進
-
-複雑な要件をシンプルに設計へ落とし込み、チームの当たり前品質を底上げするテックリードとして従事してきました。また、メンバーの 1on1 も担当しました
-
+医療 SaaS の開発・運用に従事
+機能開発の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの最適化を推進
+チームの当たり前品質を底上げするテックリードとして従事してきました。また、メンバーの 1on1 も担当しました
 商談において、システムに関わる部分は Biz メンバーと共に商談に参加し、システム的な観点からの提案を行っています
 
 ### 雇用形態
@@ -61,9 +60,9 @@ PdM 1 名
 
 開発プロセスの最適化を推進 → [詳細](jobs/con/process.md)
 
-オブザーバビリティ強化（ログ・トレーシング・監視・アラート）を推進し、インシデント検知や原因特定の即時性を向上。品質 KPI の可視化を進め、運用安定性を改善
-
 医療向け説明動画配信機能の再設計と基盤刷新 の設計支援とデータ構造整理をリードし、期日内リリースに貢献
+
+オブザーバビリティ強化（ログ・トレーシング・監視・アラート）を推進し、インシデント検知や原因特定の即時性を向上。品質 KPI の可視化を進め、運用安定性を改善
 
 入退院プロセス支援機能群の設計リードとリリース推進
 
@@ -164,14 +163,22 @@ PdM 1 名
 
 ### 主な実績
 
+専任のサーバサイドエンジニアとして、複業マッチングプラットフォームの機能開発を担当。
+
 Rails から Node.js (TypeScript)への DDD 設計でのリプレイスを実施。
-ドメインモデル図の作成、アーキテクチャ設計、テーブル設計、API 設計、実装を担当しました → [詳細](jobs/another/ddd.md)
+ドメインモデル図の作成、アーキテクチャ設計、テーブル設計、API 設計、実装を担当。 → [詳細](jobs/another/ddd.md)
 
 ユーザ検索機能の全文検索エンジン実装とパフォーマンス・チューニング → [詳細](jobs/another/elastic-search.md)
 
 ### 使用技術
 
-TypeScript, Node.js, Express, TypeORM, Ruby on Rails, Next.js, React, ElasticSearch, Redis, PostgreSQL, Sentry, Firebase, BigQuery, Payjp, Figma, Notion
+フロントエンド：TypeScript, React , Next.js , StyledComponent , Redux
+
+バックエンド：TypeScript, Node.js, Express, TypeORM, Ruby on Rails
+
+インフラ：AWS(ECS, RDS, S3, CloudFront, Route 53, Lambda, API Gateway, CloudWatch, CloudTrail)
+
+データベース：MySQL
 
 </details>
 
@@ -180,11 +187,13 @@ TypeScript, Node.js, Express, TypeORM, Ruby on Rails, Next.js, React, ElasticSea
 
 ### 概要
 
-大手メーカー向け基幹システムの開発に従事。3 年間で 20 以上の案件に参画し、要件定義からテストまでの工程を担当。業務効率化ツールの開発や Notion の導入など、チーム全体の生産性向上にも貢献。
+大手メーカー向け基幹システムの開発に従事。
+
+3 年間で 10 案件以上に参画し、要件定義からテストまでの工程を担当。業務効率化ツールの開発や Notion の導入など、チーム全体の生産性向上にも貢献。
 
 ### 使用技術
 
-Oracle, Java（基幹システム開発）
+Oracle, Java, Excel,SVN, Redmine, Notion, Jenkins, AWS
 
 [→ 詳細を見る](jobs/2018-sier.md)
 
@@ -205,7 +214,10 @@ Oracle, Java（基幹システム開発）
 
 ### チーム構成
 
-プロダクトオーナー（社長）1 名、SWE 2 名、デザイナー 1 名
+プロダクトオーナー 1 名
+PdM 1 名
+エンジニア 3 名
+デザイナー 1 名
 
 ### 役割
 
@@ -213,11 +225,19 @@ Oracle, Java（基幹システム開発）
 
 ### 主な担当業務
 
-AWS CDK によるインフラリソースの構築、アーキテクチャ設計、Nest.js でのサーバサイド開発、テスト環境の整備、CI/CD の構築を担当しました。
+フロントエンドからからインフラまで一気通貫しての開発を担当。
+
+PdM との連携を中心に、プロジェクトの進行を担当。（チーム全体の進捗管理、進捗の可視化、進捗の調整、進捗の改善）
+
+AWS CDK によるインフラリソースの構築、サーバサイドのアーキテクチャ設計、Nest.js でのサーバサイド開発、テスト環境の整備、CI/CD の構築を担当。
+（フロントエンドのアーキテクチャ選定や技術選定は他メンバーに任せる）
 
 ### 使用技術
 
-TypeScript, Nest.js, Prisma, Next.js, React, StyledComponent, AWS, AWS CDK, Vercel, PlanetScale
+フロントエンド：TypeScript, React , Next.js , TailwindCSS , Jotai , Radix UI
+バックエンド：TypeScript, Nest.js, Prisma,
+インフラ：AWS(ECS, S3, CloudFront, Route 53, Lambda, API Gateway, CloudWatch, CloudTrail),AWS CDK, Vercel,
+データベース：MySQL(PlanetScale)
 
 </details>
 
