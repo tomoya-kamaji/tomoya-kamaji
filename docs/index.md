@@ -5,22 +5,21 @@ title: プロフィール
 
 ## 基本情報
 
-| 項目 | 内容 |
-| -------
-| ------------------------------------------------
-| 名前 | 釜地智也（Kamaji Tomoya） |
-| 生年月日 | 1995/05/21 |
-| 居住地 | 大阪府 |
-| 最終学歴 | 2018 年卒 京都産業大学 情報理工学部 |
-| GitHub | [tomoya-kamaji](https://github.com/tomoya-kamaji) |
+| 項目     | 内容                                              |
+| -------- | ------------------------------------------------- |
+| 名前     | 釜地智也（Kamaji Tomoya）                         |
+| 生年月日 | 1995/05/21                                        |
+| 居住地   | 大阪府                                            |
+| 最終学歴 | 2018 年卒 京都産業大学 情報理工学部               |
+| GitHub   | [tomoya-kamaji](https://github.com/tomoya-kamaji) |
 
 ## 得意とする分野・スキル
 
 サーバサイド領域（TypeScript、Golang、Ruby on Rails）を中心に、要件・デザインからシステムを設計し、適切な粒度のタスクに分解することができます。
 
-特に、TypeScript/Golang を用いたバックエンド開発、アーキテクチャ設計を考え一定の規律を定めてチームに定着させることができます。
+特に、TypeScript/Golang を用いたバックエンド開発とアーキテクチャ設計において、一定の規律を定めてチームに定着させることができます。
 
-秒間 6,000 リクエスト発生する広告配信サービスの運用経験があるため、サーバー負荷を減らすためのノウハウも一定持っています
+秒間 6,000 リクエスト発生する広告配信サービスの運用経験があるため、サーバー負荷を削減するためのノウハウも一定量保有しています。
 
 得意とまでは言えないですが、シンプルなアプリケーションであれば IaC を用いてインフラを構築することもできます。
 
@@ -33,10 +32,9 @@ title: プロフィール
 
 ### サマリー
 
-医療 SaaS の開発・運用に従事
-機能開発の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの最適化を推進
-チームの当たり前品質を底上げするテックリードとして従事してきました。また、メンバーの 1on1 も担当しました
-商談において、システムに関わる部分は Biz メンバーと共に商談に参加し、システム的な観点からの提案を行っています
+医療 SaaS の開発・運用に従事しています。機能開発の設計支援とレビュー、運用基盤（監視・アラート・セキュリティ）強化、開発プロセスの最適化を推進するテックリードとして従事してきました。メンバーの 1on1 も担当し、チーム全体の品質向上に注力しています。
+
+商談では、システムに関わる部分について Biz メンバーと共に参加し、システム的な観点からの提案を行っています。
 
 ### 雇用形態
 
@@ -60,7 +58,7 @@ PdM 1 名
 
 開発プロセスの最適化を推進 → [詳細](jobs/con/process.md)
 
-医療向け説明動画配信機能の再設計と基盤刷新 の設計支援とデータ構造整理をリードし、期日内リリースに貢献
+医療向け説明動画配信機能の再設計と基盤刷新について、設計支援とデータ構造整理をリードし、期日内リリースに貢献
 
 オブザーバビリティ強化（ログ・トレーシング・監視・アラート）を推進し、インシデント検知や原因特定の即時性を向上。品質 KPI の可視化を進め、運用安定性を改善
 
@@ -70,13 +68,13 @@ LINE 連携を含むユーザー中心のアカウント設計を推進。多役
 
 ### 使用技術
 
-フロントエンド：TypeScript, Nuxt.js,
+フロントエンド：TypeScript、Nuxt.js
 
-バックエンド：TypeScript, Express
+バックエンド：TypeScript、Express
 
-インフラ：Google Cloud Platform(Cloud Run, Cloud SQL, Cloud Storage、Cloud Functions)
+インフラ：Google Cloud Platform（Cloud Run、Cloud SQL、Cloud Storage、Cloud Functions）
 
-データベース：MySQL(Cloud SQL)
+データベース：MySQL（Cloud SQL）
 
 モニタリング：Cloud Logging、Sentry、Slack
 
@@ -118,17 +116,17 @@ A/B テストの施策立案・実装・データ分析を BigQuery を活用し
 
 ### 使用技術
 
-フロントエンド： TypeScript, Vue.js,JavaScript
+フロントエンド：TypeScript、Vue.js、JavaScript
 
-バックエンド： Golang, Python
+バックエンド：Golang、Python
 
-インフラ： Google Cloud Platform(Kubernetes(GKE), BigQuery, Cloud Functions,Cloud Storage,Cloud SQL)
+インフラ：Google Cloud Platform（Kubernetes（GKE）、BigQuery、Cloud Functions、Cloud Storage、Cloud SQL）
 
-データベース： MySQL , Redis
+データベース：MySQL、Redis
 
-モニタリング： NewRelic, Cloud Logging, Slack
+モニタリング：NewRelic、Cloud Logging、Slack
 
-ドキュメント： Notion
+ドキュメント：Notion
 
 </details>
 
@@ -172,11 +170,11 @@ Rails から Node.js (TypeScript)への DDD 設計でのリプレイスを実施
 
 ### 使用技術
 
-フロントエンド：TypeScript, React , Next.js , StyledComponent , Redux
+フロントエンド：TypeScript、React、Next.js、StyledComponent、Redux
 
-バックエンド：TypeScript, Node.js, Express, TypeORM, Ruby on Rails
+バックエンド：TypeScript、Node.js、Express、TypeORM、Ruby on Rails
 
-インフラ：AWS(ECS, RDS, S3, CloudFront, Route 53, Lambda, API Gateway, CloudWatch, CloudTrail)
+インフラ：AWS（ECS、RDS、S3、CloudFront、Route 53、Lambda、API Gateway、CloudWatch、CloudTrail）
 
 データベース：MySQL
 
@@ -193,7 +191,7 @@ Rails から Node.js (TypeScript)への DDD 設計でのリプレイスを実施
 
 ### 使用技術
 
-Oracle, Java, Excel,SVN, Redmine, Notion, Jenkins, AWS
+Oracle、Java、Excel、SVN、Redmine、Notion、Jenkins、AWS
 
 [→ 詳細を見る](jobs/2018-sier.md)
 
@@ -215,8 +213,11 @@ Oracle, Java, Excel,SVN, Redmine, Notion, Jenkins, AWS
 ### チーム構成
 
 プロダクトオーナー 1 名
+
 PdM 1 名
+
 エンジニア 3 名
+
 デザイナー 1 名
 
 ### 役割
@@ -225,7 +226,7 @@ PdM 1 名
 
 ### 主な担当業務
 
-フロントエンドからからインフラまで一気通貫しての開発を担当。
+フロントエンドからインフラまで一気通貫しての開発を担当。
 
 PdM との連携を中心に、プロジェクトの進行を担当。（チーム全体の進捗管理、進捗の可視化、進捗の調整、進捗の改善）
 
@@ -234,10 +235,13 @@ AWS CDK によるインフラリソースの構築、サーバサイドのアー
 
 ### 使用技術
 
-フロントエンド：TypeScript, React , Next.js , TailwindCSS , Jotai , Radix UI
-バックエンド：TypeScript, Nest.js, Prisma,
-インフラ：AWS(ECS, S3, CloudFront, Route 53, Lambda, API Gateway, CloudWatch, CloudTrail),AWS CDK, Vercel,
-データベース：MySQL(PlanetScale)
+フロントエンド：TypeScript、React、Next.js、TailwindCSS、Jotai、Radix UI
+
+バックエンド：TypeScript、Nest.js、Prisma
+
+インフラ：AWS（ECS、S3、CloudFront、Route 53、Lambda、API Gateway、CloudWatch、CloudTrail）、AWS CDK、Vercel
+
+データベース：MySQL（PlanetScale）
 
 </details>
 
