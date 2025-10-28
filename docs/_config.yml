@@ -2,9 +2,15 @@ remote_theme: pages-themes/midnight@v0.2.0
 
 # Site settings
 title: プロフィール
+description: 釜地智也のプロフィール
 baseurl: "/tomoya-kamaji"
 url: "https://tomoya-kamaji.github.io"
 show_downloads: false
+
+# OGP settings
+image: "https://avatars.githubusercontent.com/u/tomoya-kamaji"
+twitter:
+  username: tomoya_sakusaku
 
 # Build settings
 markdown: kramdown
