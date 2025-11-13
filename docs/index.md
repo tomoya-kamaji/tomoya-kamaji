@@ -19,8 +19,6 @@ title: プロフィール
 
 アプリケーション基盤コードの実装を品質高く、高速で立ち上げることができます。現在は医療 SaaS のテックリードとして、設計支援、開発プロセス改善、オブザーバビリティ強化を推進中
 
-GitHub: https://github.com/tomoya-kamaji
-
 ## 得意とする分野・スキル
 
 ### アプリケーション開発・アーキテクチャ設計
@@ -88,7 +86,10 @@ IaC（AWS CDK、Terraform）を用いたインフラ構築が可能。
 ### 正社員
 
 <details class="job-history" open markdown="1">
-<summary>2024年3月～現在 医療系 SaaS サービス</summary>
+<summary>2024年3月  医療系 SaaS サービス</summary>
+
+- 2024 年 3 月～ 2024 年 9 月 フルタイム業務委託
+- 2024 年 10 月～現在 正社員
 
 ### サマリー
 
