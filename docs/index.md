@@ -15,15 +15,20 @@ title: プロフィール
 
 ## 職務要約
 
-エンジニアとして 7 年の経験。TypeScript、Golang、Ruby on Rails を用いた Web アプリケーション開発に従事。秒間 6,000 リクエストの高負荷システム運用実績を持つ。
+エンジニアとして 7 年の経験。TypeScript、Golang、Ruby on Rails を用いた Webアプリケーション開発に従事。
 
-アプリケーション基盤コードの実装を品質高く、高速で立ち上げることができます。現在は医療 SaaS のテックリードとして、設計支援、開発プロセス改善、オブザーバビリティ強化を推進中
+アプリケーション基盤コードの実装を品質高く、高速で立ち上げることができます
+現在は株式会社 Matataki にてプロダクト責任者を務め、顧客理解を起点とした企画、要件定義、開発推進を担っています。
+
+また、事業の目指す方向性を踏まえてプロダクトの方向性や施策を決定し、
+要件定義、設計、デリバリー、改善まで一気通貫で推進できます。
 
 ## 得意とする分野・スキル
 
-### アプリケーション開発・アーキテクチャ設計
+### プロダクト企画・開発推進
 
-TypeScript、Golang、Ruby on Rails を用いたアプリケーション開発に従事。要件定義からシステム設計、実装まで一貫して対応し、適切な粒度のタスク分解が可能です。
+事業の目指す方向性を踏まえて、プロダクトの方向性や施策を立案し、
+要件定義、設計、デリバリー、改善まで一気通貫で推進できます。
 
 ### 開発プロセス・チーム標準化
 
@@ -39,13 +44,13 @@ TypeScript、Golang、Ruby on Rails を用いたアプリケーション開発�
 - ドキュメント管理、タスク管理の標準化
 - メンバーの 1on1 を通じた育成
 
+### アプリケーション開発・アーキテクチャ設計
+
+- TypeScript、Golang、Ruby on Rails を用いたアプリケーション開発に従事。要件定義からシステム設計、実装まで一貫して対応し、適切な粒度のタスク分解が可能です。
+
 ### 高負荷システム運用
 
 秒間 6,000 リクエスト発生する広告配信サービスの運用経験。パフォーマンスチューニングやサーバー負荷削減のノウハウを保有。
-
-### インフラ構築
-
-IaC（AWS CDK、Terraform）を用いたインフラ構築が可能。
 
 ## 実務経験
 
@@ -53,7 +58,7 @@ IaC（AWS CDK、Terraform）を用いたインフラ構築が可能。
 
 | 技術       | 年数 |
 | ---------- | ---- |
-| TypeScript | 4 年 |
+| TypeScript | 5 年 |
 | Golang     | 2 年 |
 | Ruby       | 1 年 |
 | Python     | 1 年 |
@@ -83,7 +88,52 @@ IaC（AWS CDK、Terraform）を用いたインフラ構築が可能。
 
 ## 経歴
 
-### 正社員
+<details class="job-history" markdown="1">
+<summary>2023年1月～現在 リードジェネレーションプラットフォーム SHOWDONEの企画・開発推進</summary>
+
+### 雇用形態
+
+業務委託
+
+### 事業内容
+
+リードジェネレーションプラットフォーム SHOWDONE の企画・改善
+
+### チーム構成
+
+代表 1 名
+
+自分 1 名
+
+業務委託エンジニア 1 名
+
+### 役割
+
+プロダクト責任者に近い立場での企画・要件定義・開発推進
+
+### 主な担当業務
+
+顧客ヒアリングや商談で得た課題を起点に、改善施策の立案、要件定義、
+仕様設計、開発ディレクションを担当。
+
+営業・顧客理解・プロダクト・技術を横断し、
+「何を作るか」と「どう実現するか」をつなぎながら、
+リリース後の改善まで一貫して担った。
+
+North Star Metric やダッシュボード、ロードマップ設計を進めるとともに、
+商談データ基盤、管理画面、AI 活用基盤を推進。
+
+### 使用技術
+
+フロントエンド：TypeScript、React、Next.js、TailwindCSS、Jotai、Radix UI
+
+バックエンド：TypeScript、Nest.js、Prisma
+
+インフラ：AWS（ECS、S3、CloudFront、Route 53、Lambda、API Gateway、CloudWatch、CloudTrail）、AWS CDK、Vercel
+
+データベース：MySQL（PlanetScale）
+
+</details>
 
 <details class="job-history" open markdown="1">
 <summary>2024年3月  医療系 SaaS サービス</summary>
@@ -258,54 +308,6 @@ Rails から Node.js (TypeScript)への DDD 設計でのリプレイスを実施
 Oracle、Java、Excel、SVN、Redmine、Notion、Jenkins、AWS
 
 [→ 詳細を見る](jobs/2018-sier.md)
-
-</details>
-
-### 複業・業務委託
-
-<details class="job-history" markdown="1">
-<summary>2023年1月～現在 営業マッチングプラットフォームの開発</summary>
-
-### 雇用形態
-
-業務委託
-
-### 事業内容
-
-営業マッチングプラットフォームの開発
-
-### チーム構成
-
-プロダクトオーナー 1 名
-
-PdM 1 名
-
-エンジニア 3 名
-
-デザイナー 1 名
-
-### 役割
-
-サーバサイド開発、インフラ構築
-
-### 主な担当業務
-
-フロントエンドからインフラまで一気通貫しての開発を担当。
-
-PdM との連携を中心に、プロジェクトの進行を担当。（チーム全体の進捗管理、進捗の可視化、進捗の調整、進捗の改善）
-
-AWS CDK によるインフラリソースの構築、サーバサイドのアーキテクチャ設計、Nest.js でのサーバサイド開発、テスト環境の整備、CI/CD の構築を担当。
-（フロントエンドのアーキテクチャ選定や技術選定は他メンバーに任せる）
-
-### 使用技術
-
-フロントエンド：TypeScript、React、Next.js、TailwindCSS、Jotai、Radix UI
-
-バックエンド：TypeScript、Nest.js、Prisma
-
-インフラ：AWS（ECS、S3、CloudFront、Route 53、Lambda、API Gateway、CloudWatch、CloudTrail）、AWS CDK、Vercel
-
-データベース：MySQL（PlanetScale）
 
 </details>
 
