@@ -4,7 +4,7 @@ layout: default
 title: 医療向け電子同意書と電子カルテをつなぐ連携 API のセキュリティ設計と実装
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)
 
 ### 概要
 
@@ -49,4 +49,4 @@ title: 医療向け電子同意書と電子カルテをつなぐ連携 API の�
 - Node.js（Express）、node-forge pki、OpenSSL（OCSP）、Google Cloud（LB／API サーバ）
 - 証明書運用：ルート CA 配備、クライアント証明書の属性検証、鍵・証明書ローテーション前提の設計
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)

@@ -3,7 +3,7 @@ layout: default
 title: Matataki / SHOWDONE CPO
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)
 
 ## 概要
 
@@ -51,4 +51,4 @@ title: Matataki / SHOWDONE CPO
 
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)

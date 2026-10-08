@@ -3,7 +3,7 @@ layout: default
 title: 形態素解析器 Sudachi を使用できる gRPC サーバーの構築
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)
 
 ### 背景
 
@@ -28,4 +28,4 @@ title: 形態素解析器 Sudachi を使用できる gRPC サーバーの構築
 
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)

@@ -1,0 +1,129 @@
+# 職務経歴書（docs/index.md）の本文。値には HTML を書ける
+# 見た目は docs/_layouts/resume.html、ルールは DESIGN.md を正とする
+
+summary:
+  rows:
+    - label: 役割
+      value: <strong>株式会社 Matataki の CPO</strong>（フルタイム）。プロダクト専任は自分 1 名
+    - label: 強み
+      value: <strong>企画から改善まで一気通貫</strong>。基盤コードの立ち上げも品質を保って速く進められる
+    - label: 志向
+      value: <strong>事業成長に寄与する役割</strong>を担いつつ、コードも書き続けたい
+  note: 顧客理解を起点に「何を作るか」と「どう実現するか」をつなぎ、企画・要件定義・設計・デリバリー・改善までを担当する。
+
+skills:
+  - id: skill-product
+    title: プロダクト企画・開発推進
+    lead: 施策決定からリリース後改善まで推進できる。
+    body: 事業方針を踏まえて施策を決め、要件定義に落とす。
+    link: { href: "#exp-showdone", label: SHOWDONE での取り組み }
+  - id: skill-app
+    title: アプリケーション開発・設計
+    lead: 高負荷サービスの設計・実装ができる。
+    body: 秒間 6,000 リクエストの広告配信で、Redis とメモリキャッシュの 2 層構成により負荷を削減。
+    link: { href: "#exp-ads", label: 広告配信の詳細 }
+  - id: skill-process
+    title: 開発プロセス・チーム標準化
+    lead: チームに適度な規律を入れ、デリバリーを速くできる。
+    body: Design Docs、レビュー、Cursor ルールを導入。
+    link: { href: "#exp-medical", label: 医療 SaaS でのプロセス改善 }
+
+stack:
+  id: skill-stack
+  title: 技術スタック
+  rows:
+    - label: 得意
+      value: TypeScript（5 年）、Express / Nest.js / Next.js、AWS / Google Cloud、Docker
+      strong: true
+    - label: その他
+      value: Golang、Ruby on Rails、Vue.js / Nuxt.js、Terraform、AWS CDK
+
+experience:
+  note: 新しい期間から順に記載。期間が重なる案件は下表で明示。
+  items:
+    - id: exp-showdone
+      period: 2023/1〜現在
+      name: SHOWDONE
+      role: CPO
+      detail: /jobs/matataki/matataki-showdone.html
+      rows:
+        - label: 役割
+          value: 株式会社 Matataki の CPO（2026/2 からフルタイム）
+        - label: 体制
+          value: プロダクト専任 <strong>1 名</strong>
+        - label: 担当
+          value: 登録導線・相互紹介・ニーズ流通・AI オファーの企画から実装まで。交流会営業や PR も並行
+    - id: exp-medical
+      period: 2024/3〜2026/2
+      name: 医療系 SaaS
+      role: テックリード
+      detail: /jobs/con/overview.html
+      rows:
+        - label: 役割
+          value: テックリード
+        - label: 担当
+          value: 設計支援・レビュー、運用基盤の強化、Design Docs・Cursor ルールによる開発プロセスの標準化
+    - id: exp-ads
+      period: 2023/1〜2023/12
+      name: 検索連動型広告
+      role: 配信サーバ モジュールオーナー
+      detail: /jobs/qufoo/overview.html
+      rows:
+        - label: 役割
+          value: 広告配信サーバのモジュールオーナー
+        - label: 規模
+          value: <strong>秒間 6,000 リクエスト</strong>
+        - label: 担当
+          value: Redis とメモリキャッシュの 2 層構成を設計・実装し、負荷を削減
+    - id: exp-matching
+      period: 2021/6〜2022/12
+      name: 複業マッチング
+      role: 専任サーバサイド
+      detail: /jobs/another/overview.html
+      rows:
+        - label: 役割
+          value: 専任サーバサイド
+        - label: 規模
+          value: <strong>約 120 エンドポイント</strong>
+        - label: 担当
+          value: Rails から Node.js（TypeScript）への DDD リプレイス
+    - id: exp-tekisei
+      period: 2022/1〜2022/6
+      name: 適性検査
+      role: API 設計・実装（業務委託）
+      detail: /jobs/tekisei.html
+      rows:
+        - label: 役割
+          value: API 設計・実装（業務委託、月 40〜50 時間）
+        - label: 担当
+          value: Nest.js による API の設計からテストまで。英語でのドキュメント整備
+    - id: exp-sier
+      period: 2018/4〜2021/5
+      name: 大手 SIer
+      role: 基幹開発
+      detail: /jobs/2018-sier.html
+      rows:
+        - label: 役割
+          value: 基幹システム開発
+        - label: 担当
+          value: ログ整形ツールを開発し、エラー箇所の特定時間を平均 70% 削減
+
+basic:
+  - label: 氏名
+    value: 釜地 智也（Kamaji Tomoya）
+  - label: 生年
+    value: 1995 年生まれ
+  - label: 居住地
+    value: 大阪府
+  - label: 最終学歴
+    value: 2018 年卒 京都産業大学 情報理工学部
+  - label: GitHub
+    value: <a href="https://github.com/tomoya-kamaji">tomoya-kamaji</a>
+
+extra:
+  - id: extra-writing
+    title: 技術書執筆
+    body: 共著「Go 言語で構築するクリーンアーキテクチャ設計」を技術書展 15（2023/11）で発売。基盤コードの実装と各章の執筆を担当し、約 700 冊を販売。<a href="https://x.com/tomoya_sakusaku/status/1723167574983356558?s=20">告知（X）</a>
+  - id: extra-sns
+    title: SNS
+    body: <a href="https://x.com/tomoya_sakusaku">X（@tomoya_sakusaku）</a>

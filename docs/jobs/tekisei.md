@@ -3,7 +3,7 @@ layout: default
 title: 新卒向け適性検査サービス
 ---
 
-[← プロフィールに戻る](../index.md)
+[← 職務経歴書に戻る](../index.md)
 
 ## 概要
 
@@ -31,4 +31,4 @@ TypeScript、Nest.js
 
 ---
 
-[← プロフィールに戻る](../index.md)
+[← 職務経歴書に戻る](../index.md)

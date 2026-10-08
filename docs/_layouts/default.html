@@ -1,48 +1,34 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <!-- 左側：目次サイドバー -->
-      <aside class="sidebar">
-        <nav>
-          <ul id="toc-list"></ul>
-        </nav>
-      </aside>
-
-      <!-- 右側：メインコンテンツ -->
-      <section class="main-content">
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+    <div class="layout">
+      <nav class="toc" aria-label="目次">
+        <div id="toc-list" class="toc__list">
+          {%- if page.toc == "resume" %}{% include resume-toc.html %}{% endif %}
         </div>
+      </nav>
+
+      <main class="main-content">
+        <header class="page-header">
+          <a class="page-header__name" href="{{ '/' | relative_url }}">{{ site.author }}</a>
+          <h1>{{ page.title }}</h1>
+          <p class="page-header__meta">最終更新 <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ site.time | date: '%Y/%m/%d' }}</time></p>
+        </header>
 
         {{ content }}
-
-      </section>
-
+      </main>
     </div>
 
-    <!-- 自動目次生成スクリプト -->
     <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
   </body>
 </html>
