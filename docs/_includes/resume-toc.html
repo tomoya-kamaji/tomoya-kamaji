@@ -1,0 +1,16 @@
+{%- assign r = site.data.resume -%}
+<a href="#summary" data-target="summary">職務要約</a>
+<a href="#skills" data-target="skills">できること</a>
+{%- for s in r.skills %}
+<a href="#{{ s.id }}" data-target="{{ s.id }}" class="is-sub">{{ s.title }}</a>
+{%- endfor %}
+<a href="#{{ r.stack.id }}" data-target="{{ r.stack.id }}" class="is-sub">{{ r.stack.title }}</a>
+<a href="#experience" data-target="experience">経歴</a>
+{%- for e in r.experience.items %}
+<a href="#{{ e.id }}" data-target="{{ e.id }}" class="is-sub">{{ e.name }}（{{ e.period }}）</a>
+{%- endfor %}
+<a href="#basic" data-target="basic">基本情報</a>
+<a href="#extra" data-target="extra">業務外</a>
+{%- for x in r.extra %}
+<a href="#{{ x.id }}" data-target="{{ x.id }}" class="is-sub">{{ x.title }}</a>
+{%- endfor %}

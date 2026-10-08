@@ -3,7 +3,7 @@ layout: default
 title: Rails から Node.js(TypeScript) への DDD 思想を取り入れたリプレイス
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)
 
 ### 背景
 
@@ -26,4 +26,4 @@ title: Rails から Node.js(TypeScript) への DDD 思想を取り入れたリ�
 
 ---
 
-[← プロフィールに戻る](../../index.md)
+[← 職務経歴書に戻る](../../index.md)

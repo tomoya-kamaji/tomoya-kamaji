@@ -1,0 +1,109 @@
+---
+layout: default
+---
+{%- assign r = site.data.resume -%}
+
+<section id="summary">
+  <h2>職務要約</h2>
+  <dl class="kv-list">
+    {%- for row in r.summary.rows %}
+    <div class="kv-list__row">
+      <dt>{{ row.label }}</dt>
+      <dd>{{ row.value }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+  <p class="section-note">{{ r.summary.note }}</p>
+</section>
+
+<section id="skills">
+  <h2>できること</h2>
+  <div class="row-list">
+    {%- for s in r.skills %}
+    <div class="row" id="{{ s.id }}">
+      <h3>{{ s.title }}</h3>
+      <div class="row__body">
+        <p><strong>{{ s.lead }}</strong>{{ s.body }}</p>
+        <a href="{{ s.link.href }}">{{ s.link.label }} →</a>
+      </div>
+    </div>
+    {%- endfor %}
+    <div class="row" id="{{ r.stack.id }}">
+      <h3>{{ r.stack.title }}</h3>
+      <dl class="kv-inline">
+        {%- for row in r.stack.rows %}
+        <dt>{{ row.label }}</dt>
+        <dd{% if row.strong %} class="is-strong"{% endif %}>{{ row.value }}</dd>
+        {%- endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>経歴</h2>
+  <p class="section-lead">{{ r.experience.note }}</p>
+
+  <div class="table-frame">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">期間</th>
+          <th scope="col">案件</th>
+          <th scope="col">役割</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for e in r.experience.items %}
+        <tr>
+          <td>{{ e.period }}</td>
+          <td><a href="#{{ e.id }}">{{ e.name }}</a></td>
+          <td>{{ e.role }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="row-list row-list--framed">
+    {%- for e in r.experience.items %}
+    <article class="row row--loose" id="{{ e.id }}">
+      <p class="row__period">{{ e.period }}</p>
+      <div class="row__body">
+        <h3>{{ e.name }}</h3>
+        <dl class="kv-inline">
+          {%- for row in e.rows %}
+          <dt>{{ row.label }}</dt>
+          <dd>{{ row.value }}</dd>
+          {%- endfor %}
+        </dl>
+        <a href="{{ e.detail | relative_url }}">詳細 →</a>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section id="basic">
+  <h2>基本情報</h2>
+  <dl class="kv-list">
+    {%- for row in r.basic %}
+    <div class="kv-list__row">
+      <dt>{{ row.label }}</dt>
+      <dd>{{ row.value }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</section>
+
+<section id="extra">
+  <h2>業務外</h2>
+  <div class="row-list">
+    {%- for x in r.extra %}
+    <div class="row row--tight" id="{{ x.id }}">
+      <h3>{{ x.title }}</h3>
+      <p>{{ x.body }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
