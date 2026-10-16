@@ -1,0 +1,31 @@
+# Site settings
+title: 釜地智也
+author: 釜地智也
+lang: ja
+description: 釜地智也の職務経歴書
+baseurl: "/tomoya-kamaji"
+url: "https://tomoya-kamaji.github.io"
+show_downloads: false
+
+# OGP settings
+image: "https://avatars.githubusercontent.com/u/tomoya-kamaji"
+twitter:
+  username: tomoya_sakusaku
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
