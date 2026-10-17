@@ -10,6 +10,7 @@ layout: default
     <p>{{ p }}</p>
     {%- endfor %}
   </div>
+  {%- if r.summary.rows %}
   <dl class="kv-list">
     {%- for row in r.summary.rows %}
     <div class="kv-list__row">
@@ -18,6 +19,7 @@ layout: default
     </div>
     {%- endfor %}
   </dl>
+  {%- endif %}
 </section>
 
 <section id="skills">
@@ -109,7 +111,7 @@ layout: default
         {%- if e.values %}
         {%- for v in e.values %}
         <section class="project">
-          <h4>✅ {{ v.title }}</h4>
+          <h4>{{ v.title }}</h4>
           {%- for s in v.sections %}
           <p class="project__subhead"><strong>■ {{ s.heading }}</strong></p>
           {%- if s.paragraphs %}
