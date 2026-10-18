@@ -22,6 +22,18 @@ layout: default
   {%- endif %}
 </section>
 
+<section id="pr">
+  <h2>自己 PR</h2>
+  <div class="row-list">
+    {%- for x in r.pr %}
+    <div class="row row--tight" id="{{ x.id }}">
+      <h3>{{ x.title }}</h3>
+      <p>{{ x.body }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
 <section id="skills">
   <h2>できること</h2>
   <div class="row-list">
@@ -143,18 +155,6 @@ layout: default
         {%- endfor %}
       </div>
     </article>
-    {%- endfor %}
-  </div>
-</section>
-
-<section id="pr">
-  <h2>自己 PR</h2>
-  <div class="row-list">
-    {%- for x in r.pr %}
-    <div class="row row--tight" id="{{ x.id }}">
-      <h3>{{ x.title }}</h3>
-      <p>{{ x.body }}</p>
-    </div>
     {%- endfor %}
   </div>
 </section>
