@@ -96,9 +96,15 @@ layout: default
   <div class="row-list row-list--framed">
     {%- for e in r.experience.items %}
     <article class="row row--loose" id="{{ e.id }}">
-      <p class="row__period">{{ e.period }}</p>
-      <div class="row__body">
+      <header class="job-head">
         <h3>{{ e.name }}</h3>
+        <p class="job-head__meta">
+          <span class="job-head__period">{{ e.period }}</span>
+          <span>{{ e.role }}</span>
+          <span>{{ e.type }}</span>
+        </p>
+      </header>
+      <div class="row__body">
         <dl class="kv-list">
           {%- for row in e.rows %}
           <div class="kv-list__row">
