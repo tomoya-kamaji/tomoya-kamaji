@@ -128,22 +128,56 @@ layout: default
         {%- endif %}
         {%- if e.values %}
         {%- for v in e.values %}
-        <section class="project">
-          <h4>{{ v.title }}</h4>
+        <section class="project-item">
+          <h4 class="project-item__title"><span class="project-item__num">{{ forloop.index }}</span>{{ v.title }}</h4>
           {%- for s in v.sections %}
-          <p class="project__subhead"><strong>■ {{ s.heading }}</strong></p>
-          {%- if s.paragraphs %}
-          {%- for p in s.paragraphs %}
-          <p class="project__text">{{ p }}</p>
-          {%- endfor %}
-          {%- endif %}
-          {%- if s.items %}
-          <ul class="project__list">
-            {%- for item in s.items %}
-            <li>{{ item }}</li>
+          {%- assign heading_prefix = s.heading | slice: 0, 2 %}
+          <div class="block">
+            {%- if s.heading == "背景" %}
+            <div class="block__head">
+              <span class="label label--background">背景</span>
+            </div>
+            {%- elsif s.heading == "発揮したバリュー" %}
+            <div class="block__head">
+              <span class="label label--value">発揮したバリュー</span>
+            </div>
+            {%- elsif s.heading == "背景と発揮したバリュー" %}
+            <div class="block__head">
+              <span class="label label--background">背景</span>
+              <span class="label label--value">発揮したバリュー</span>
+            </div>
+            {%- elsif s.heading == "結果" %}
+            <div class="block__head">
+              <span class="label label--value">成果</span>
+            </div>
+            {%- elsif heading_prefix == "結果" %}
+            <div class="block__head">
+              <span class="label label--value">成果</span>
+              <strong>{{ s.heading }}</strong>
+            </div>
+            {%- elsif s.heading contains "技術記事" %}
+            <div class="block__head">
+              <strong>{{ s.heading }}</strong>
+            </div>
+            {%- else %}
+            <div class="block__head">
+              <span class="label label--craft">工夫</span>
+              <strong>{{ s.heading }}</strong>
+            </div>
+            {%- endif %}
+            {%- if s.paragraphs %}
+            {%- for p in s.paragraphs %}
+            <p class="block__text">{{ p }}</p>
             {%- endfor %}
-          </ul>
-          {%- endif %}
+            {%- endif %}
+            {%- if s.items %}
+            <ul class="block__list">
+              {%- for item in s.items %}
+              <li>{{ item }}</li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
+          </div>
           {%- endfor %}
         </section>
         {%- endfor %}

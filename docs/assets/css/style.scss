@@ -16,6 +16,14 @@
   --border-default: #e3e6ea;
   --focus-ring: #2b4c7e;
 
+  --label-bg-bg: #eceef2;
+  --label-bg-fg: #3f4752;
+  --label-value-bg: #e3edfd;
+  --label-value-fg: #1546a0;
+  --label-craft-bg: #e2f3ec;
+  --label-craft-fg: #0b6b50;
+  --project-rule: #1f2a44;
+
   --font-family: "Inter", "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
 
   --fs-h1: 28px;
@@ -408,6 +416,95 @@ dt {
   border-bottom: 1px solid var(--border-default);
 }
 
+/* 実績ブロック（番号・濃紺線・色ラベル） */
+.project-item {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 3px solid var(--project-rule);
+}
+
+.project-item__title {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 16px;
+  color: var(--text-primary);
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.project-item__num {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--project-rule);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.label--background {
+  background: var(--label-bg-bg);
+  color: var(--label-bg-fg);
+}
+
+.label--value {
+  background: var(--label-value-bg);
+  color: var(--label-value-fg);
+}
+
+.label--craft {
+  background: var(--label-craft-bg);
+  color: var(--label-craft-fg);
+}
+
+.block + .block {
+  margin-top: 16px;
+}
+
+.block__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  color: var(--text-primary);
+}
+
+.block__head strong {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.block__text {
+  margin: 0 0 6px !important;
+}
+
+.block__text:last-child,
+.block__list:last-child {
+  margin-bottom: 0 !important;
+}
+
+.block__list {
+  margin: 0 0 6px !important;
+}
+
 /* 目次 */
 .toc {
   position: sticky;
@@ -526,7 +623,9 @@ dt {
   }
 
   h4,
-  .project__subhead {
+  .project__subhead,
+  .project-item__title,
+  .block__head {
     break-after: avoid;
   }
 
@@ -560,6 +659,30 @@ dt {
   .project {
     margin-top: 4px;
     padding-top: 8px;
+  }
+
+  .project-item {
+    margin-top: 18px;
+    padding-top: 12px;
+  }
+
+  .project-item__title {
+    font-size: 10.5pt;
+    break-after: avoid;
+  }
+
+  .project-item__num {
+    width: 20px;
+    height: 20px;
+    font-size: 9px;
+  }
+
+  .label {
+    font-size: 8.5pt;
+  }
+
+  .block + .block {
+    margin-top: 10px;
   }
 
   .table-frame,
